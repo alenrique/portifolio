@@ -99,7 +99,7 @@ export function Home() {
                     <p className="mt-6">Full Stack</p>
                     <div className="flex gap-12 m-16 max-sm:gap-7">
                         <button className="h-12 w-40 p-6 rounded-md border-2 border-element bg-element flex justify-center items-center text-black font-bold font-['Darker_Grotesque'] transition-all duration-200 hover:scale-110">DOWNLOAD CV</button>
-                        <button className="h-12 w-40 p-6 rounded-md border-2 border-element flex justify-center items-center text-element font-bold font-['Darker_Grotesque'] transition-all duration-200 hover:scale-110">VAMOS LÁ</button>
+                        <a href="#aboutme"><button className="h-12 w-40 p-6 rounded-md border-2 border-element flex justify-center items-center text-element font-bold font-['Darker_Grotesque'] transition-all duration-200 hover:scale-110">VAMOS LÁ</button></a>
                     </div>
                 </motion.div>
             </div>

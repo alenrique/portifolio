@@ -1,5 +1,6 @@
 import { MyWork } from "./MyWork";
 import { motion } from "framer-motion";
+import ImageHabit from "../assets/2023-02-23.png"
 
 const initial = {
     y: 100, 
@@ -16,6 +17,16 @@ const transition = {
     duration: 0.7, 
 }
 
+const works = [
+    {
+        name: "Habits",
+        github: "https://github.com/alenrique/portifolio",
+        website: "https://nlw-setup-henrique.vercel.app/",
+        description: "O Projeto do NLW-Setup que une tecnologias como ReactJS, RadixUI, TailwindCSS, etc para front-end e NodeJS, Fastify, Prisma, SQLite, etc para back-end, contando com a versão mobile feito com tecnologias como React Native, Expo, etc.",
+        image: ImageHabit
+    }
+]
+
 export function MyPortifolio() {
     return (
         <motion.div 
@@ -27,7 +38,11 @@ export function MyPortifolio() {
         >
             <h1 className="my-20 font-semibold text-element text-4xl max-sm:my-6">Meu Portifolio</h1>
             <div className="grid grid-cols-3 gap-6 max-[810px]:grid-cols-2 max-sm:flex max-sm:flex-col">
-                <MyWork />
+                {
+                    works.map(work => (
+                        <MyWork key={work.github} name={work.name} github={work.github} website={work.website} description={work.description} image={ImageHabit} />
+                    ))
+                }
                 <MyWork />
                 <MyWork />
                 <MyWork />

@@ -48,7 +48,7 @@ export function AboutMe() {
                         </div>
                     </div>
                     <p className="text-element">Meu nome é Henrique Alencar, trabalho tanto com front-end quanto com back-end, estou cursando o último do curso de Matemática Computacional na UFCA(Universidade Federal do Cariri), tenho vários projetos utilizando tecnologias como HTML, CSS, Javascripts, NodeJS, AdonisJS, React, React Native, MongoDB, MySQL, Typescript, Java, Python, C, Entre Outros.</p>
-                    <button className="h-12 w-40 p-6 rounded-md border-2 border-element flex justify-center items-center text-element font-bold font-['Darker_Grotesque'] transition-all duration-200 hover:scale-110">VAMOS LÁ</button>
+                    <a href="#myexperience"><button className="h-12 w-40 p-6 rounded-md border-2 border-element flex justify-center items-center text-element font-bold font-['Darker_Grotesque'] transition-all duration-200 hover:scale-110">VAMOS LÁ</button></a>
                 </div>
             </div>
         </motion.div>
