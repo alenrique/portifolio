@@ -1,6 +1,7 @@
 import { MyWork } from "./MyWork";
 import { motion } from "framer-motion";
 import ImageHabit from "../assets/2023-02-23.png"
+import ImageTweet from "../assets/2023-03-01.png"
 
 const initial = {
     y: 100, 
@@ -30,7 +31,7 @@ const works = [
         github: "https://github.com/alenrique/twitter-clone",
         website: "https://cloning-twitter.vercel.app/",
         description: "Um clone do twitter que usa tecnologias como ReactJS, RadixUI, TailwindCSS, etc para front-end e NodeJS, Express, Prisma, PostgreSQL, etc para back-end.",
-        image: ImageHabit
+        image: ImageTweet
     }
 ]
 
