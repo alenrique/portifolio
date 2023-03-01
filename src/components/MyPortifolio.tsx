@@ -24,6 +24,13 @@ const works = [
         website: "https://nlw-setup-henrique.vercel.app/",
         description: "O Projeto do NLW-Setup que une tecnologias como ReactJS, RadixUI, TailwindCSS, etc para front-end e NodeJS, Fastify, Prisma, SQLite, etc para back-end, contando com a versão mobile feito com tecnologias como React Native, Expo, etc.",
         image: ImageHabit
+    },
+    {
+        name: "Twitter Clone",
+        github: "https://github.com/alenrique/twitter-clone",
+        website: "https://cloning-twitter.vercel.app/",
+        description: "Um clone do twitter que usa tecnologias como ReactJS, RadixUI, TailwindCSS, etc para front-end e NodeJS, Express, Prisma, PostgreSQL, etc para back-end.",
+        image: ImageHabit
     }
 ]
 
@@ -43,7 +50,6 @@ export function MyPortifolio() {
                         <MyWork key={work.github} name={work.name} github={work.github} website={work.website} description={work.description} image={ImageHabit} />
                     ))
                 }
-                <MyWork />
                 <MyWork />
                 <MyWork />
                 <MyWork />
