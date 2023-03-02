@@ -24,7 +24,7 @@ const works = [
         github: "https://github.com/alenrique/portifolio",
         website: "https://nlw-setup-henrique.vercel.app/",
         description: "O Projeto do NLW-Setup que une tecnologias como ReactJS, RadixUI, TailwindCSS, etc para front-end e NodeJS, Fastify, Prisma, SQLite, etc para back-end, contando com a versão mobile feito com tecnologias como React Native, Expo, etc.",
-        image: ImageHabit
+        image: ImageTweet
     },
     {
         name: "Twitter Clone",
